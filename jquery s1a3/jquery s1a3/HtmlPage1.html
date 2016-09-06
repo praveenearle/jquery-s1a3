@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="jquery-3.0.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('li').each(function(index,elem){
+                $(elem).prepend('<b>'+ index + ':</br>');
+            });
+            });
+        
+    </script>
+</head>
+<body>
+    <ul>
+        <li>html tutorial</li>
+        <li>front end tutorial</li>
+        <li>noad js tutorial</li>
+        <li>bigdata tutorial</li>
+    </ul>
+
+</body>
+</html>
